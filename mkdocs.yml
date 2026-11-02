@@ -1,0 +1,16 @@
+site_name: Guia de Java
+site_description: Guia introductoria de Java para estudiantes de DAW
+site_author: Estudiant
+theme:
+  name: material
+  language: es
+nav:
+  - Inicio: index.md
+  - Conceptos básicos: conceptos.md
+  - Variables y tipos: variables.md
+  - Condicionales y bucles: control.md
+  - Ejemplos: ejemplos.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
