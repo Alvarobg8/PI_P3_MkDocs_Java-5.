@@ -40,3 +40,11 @@ if (edad >= 18) {
 } else {
     System.out.println("Menor de edad");
 }
+
+!!! info "Información"
+    Los condicionales permiten tomar decisiones
+    dentro de un programa.
+
+!!! danger "Error frecuente"
+    No olvides las llaves cuando sean necesarias
+    para agrupar varias instrucciones.

@@ -21,3 +21,18 @@ Una variable permite guardar un dato que puede utilizar el programa.
 int contador = 0;
 contador = contador + 1;
 ```
+```markdown
+!!! note "Nota"
+    Una variable permite guardar información
+    que puede utilizar el programa.
+
+!!! tip "Consejo"
+    Utiliza nombres de variables que sean fáciles
+    de entender.
+
+!!! warning "Advertencia"
+    No intentes utilizar una variable antes
+    de declararla.
+
+!!! success "Ejemplo correcto"
+    int edad = 18;

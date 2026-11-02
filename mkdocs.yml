@@ -1,6 +1,6 @@
 site_name: Guia de Java
 site_description: Guia introductoria de Java para estudiantes de DAW
-site_author: Estudiant
+site_author: Alvaro
 theme:
   name: material
   language: es
@@ -14,3 +14,31 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+site_name: Guia de Java
+site_description: Guia introductoria de Java para estudiantes de DAW
+site_author: Alvaro
+
+theme:
+  name: material
+  language: es
+  palette:
+    primary: indigo
+    accent: cyan
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+
+nav:
+  - Inicio: index.md
+  - Conceptos básicos: conceptos.md
+  - Variables y tipos: variables.md
+  - Condicionales y bucles: control.md
+  - Ejemplos: ejemplos.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
